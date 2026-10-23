@@ -1,0 +1,11 @@
+def buat_biodata(nama, umur, jurusan):
+    print("Nama:", nama)
+    print("Umur:", umur)
+    print("Jurusan:", jurusan)
+
+buat_biodata("Rani", 19, "Sistem Informasi")
+
+print()
+
+buat_biodata(jurusan="Sistem Informasi", nama="Rani", umur=19)
+

@@ -1,0 +1,5 @@
+def sapa_mahasiswa(nama, sapaan="Selamat belajar"):
+    print(f"{sapaan}, {nama}!")
+
+sapa_mahasiswa("Rina", "Selamat pagi")
+sapa_mahasiswa("Rina")

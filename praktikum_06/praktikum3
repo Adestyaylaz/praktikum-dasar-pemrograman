@@ -1,0 +1,14 @@
+daftar_matkul = ["Algoritma", "Tipe Data"]
+
+daftar_matkul.append("Basis Data")
+print(daftar_matkul)
+
+daftar_matkul.insert(1, "Pemrograman")
+print(daftar_matkul)
+
+del daftar_matkul[0]
+print(daftar_matkul)
+
+terhapus = daftar_matkul.pop()
+print("Terhapus:", terhapus)
+print(daftar_matkul)
